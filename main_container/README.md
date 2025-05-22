@@ -1,13 +1,24 @@
-# Lightweight React Template for KAVIA
+# Tiger Insights: Exploring Biology, Behavior, and Conservation
 
-This project provides a minimal React template with a clean, modern UI and minimal dependencies.
+This project provides a comprehensive multi-page blog about tigers, covering their biology, behavior, habitat, conservation status, cultural significance, ecological role, and interesting facts.
 
 ## Features
 
-- **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
-- **Modern UI**: Clean, responsive design with KAVIA brand styling
-- **Fast**: Minimal dependencies for quick loading times
-- **Simple**: Easy to understand and modify
+- **Multi-page Structure**: Eight detailed pages covering different aspects of tigers
+- **Navigation System**: Uses React Router for seamless navigation between pages
+- **Responsive Design**: Works on all device sizes with optimized layouts
+- **Rich Content**: Detailed information with well-structured formatting
+
+## Pages Included
+
+1. **Introduction**: Overview of tigers and their significance
+2. **Biology and Subspecies**: Physical characteristics, adaptations, and tiger subspecies
+3. **Behavior and Social Structure**: Social behavior, territorial habits, hunting, and family life
+4. **Habitat and Range**: Historic and current distribution, habitat types, and requirements
+5. **Conservation Status and Threats**: Current status, threats, and conservation efforts
+6. **Tigers in Culture & Mythology**: Cultural significance across Asian religions and modern culture
+7. **Role in the Ecosystem**: Ecological importance as apex predators
+8. **Interesting Facts**: Collection of fascinating tiger facts
 
 ## Getting Started
 
@@ -27,56 +38,17 @@ Launches the test runner in interactive watch mode.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Customization
+## Technologies Used
 
-### Colors
+- React
+- React Router DOM
+- CSS3
+- Modern JavaScript (ES6+)
 
-The main brand colors are defined as CSS variables in `src/App.css`:
+## Design Notes
 
-```css
-:root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
-}
-```
-
-### Components
-
-This template uses pure HTML/CSS components instead of a UI framework. You can find component styles in `src/App.css`. 
-
-Common components include:
-- Buttons (`.btn`, `.btn-large`)
-- Container (`.container`)
-- Navigation (`.navbar`)
-- Typography (`.title`, `.subtitle`, `.description`)
-
-## Learn More
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application uses a KAVIA-inspired design system with:
+- Tiger-themed color scheme (orange and black)
+- Responsive navigation
+- Consistent typography and spacing
+- Special components for facts, quotes, and navigation
