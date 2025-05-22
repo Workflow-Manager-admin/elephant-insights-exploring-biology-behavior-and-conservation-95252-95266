@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/elephant-insights-exploring-biology-behavior-and-conservation-95252-95266/main_container"
+}
